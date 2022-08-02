@@ -1,0 +1,28 @@
+
+
+a{
+    color:rgb(18, 20, 20);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div{
+    cursor: pointer;
+}
+
+
+.links {
+    display:flex;
+    gap: 1em;
+}
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    background-color: aliceblue;
+    padding: 1em;
+    justify-content: space-between;
+}
